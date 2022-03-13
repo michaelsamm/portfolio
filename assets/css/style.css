@@ -66,7 +66,7 @@ header nav ul li a:hover {
 .hero {
     background-image: url("../images/lines.jpeg");
     background-size: cover;
-    height: 200px;
+    height: 250px;
     background-position: center;
     background-attachment: fixed;
     display: flex;
@@ -205,4 +205,64 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     border-top: double 2px var(--secondary-color);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    .column-section {
+        flex-direction: column;
+    }
+    .column-section-heading {
+        width: 100%;
+        border-bottom: solid 2px var(--light-text-color);
+        border-right: none;
+    }
+
+    .column-section-heading h2 {
+        text-align: left;
+    }
+}
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    .column-section-heading h2 {
+        font-size: 22px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    p {
+        font-size: 12px;
+    }
+    
+    header h1 {
+        font-size: 18px;
+    }
+
+    nav ul li a {
+        font-size: 2.5vw;
+    }
+
+    .column-section-heading h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-me a {
+        font-size: 2.5vw;
+    }
+
 }
