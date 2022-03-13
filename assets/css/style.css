@@ -48,4 +48,15 @@ header nav ul li a {
     font-weight: lighter;
 }
 
+.hero {
+    background-image: url("../images/lines.jpeg");
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
 
