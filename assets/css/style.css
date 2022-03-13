@@ -1,3 +1,51 @@
 /* Classes
 project
 project-description */
+:root {
+    --primary-color: #020808;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start Header styling */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+    background-color: var(--primary-color);
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: whitesmoke;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+}
+
+
