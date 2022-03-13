@@ -40,11 +40,13 @@
     <!-- Start About Me -->
     <article class="dark-background column-section">
         <!-- Section title -->
-        <h2 id="about-me">
-            About Me
-        </h2>
+        <div class="column-section-heading">
+            <h2 id="about-me">
+                About Me
+            </h2>           
+        </div>
         <!-- Picture of me -->
-        <div class="about-me">
+        <div class="about-me column-section-content">
             <div>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quam obcaecati provident consequuntur, dolor a suscipit sunt culpa rem repellat placeat, aperiam mollitia nemo nobis ipsa illum nam minus vero.
@@ -59,16 +61,18 @@
     <!-- End About Me -->
 
     <!-- Start Projects -->
-    <main class="dark-background">
+    <main class="dark-background column-section">
         <!-- Section title -->
-        <h2 id="projects">
-            Projects
-        </h2>
+        <div class="column-section-heading">
+            <h2 id="projects">
+                Projects
+            </h2>           
+        </div>
         <!-- Container for all projects -->
-        <div>
+        <div class="column-section-content projects">
             <!-- Container for the image AND description of the FIRST project which should be larger-->
             <div class="project">
-                <a href="https://michaelsamm.github.io/run-buddy/"><img src="./assets/images/run-buddy.png" alt="The Run Buddy website sign up form for finding running training programs."></a>
+                <a href="https://michaelsamm.github.io/run-buddy/" target="_blank"><img src="./assets/images/run-buddy.png" alt="The Run Buddy website sign up form for finding running training programs."></a>
                 <!-- Container for the description elements -->
                 <div class="project-description">
                     <h3>
@@ -81,7 +85,7 @@
             </div>
             <!-- Additional projects -->
             <div class="project">
-                <a href="https://michaelsamm.github.io/run-buddy/"><img src="./assets/images/robot-gladiators.png" alt="The Robot Gladiators browser game prompt to name your robot."></a>
+                <a href="https://michaelsamm.github.io/robot-gladiators/" target="_blank"><img src="./assets/images/robot-gladiators.png" alt="The Robot Gladiators browser game prompt to name your robot."></a>
                 <div class="project-description">
                     <h3>
                         Robot Gladiators
@@ -92,10 +96,26 @@
                 </div>
             </div>
             <div class="project">
-                <a href="https://michaelsamm.github.io/run-buddy/"><img src="./assets/images/work-in-progress.jpg" alt="Work in progress"></a>
+                <a href=""><img src="./assets/images/work-in-progress.jpg" alt="Work in progress"></a>
+                <div class="project-description">
+                    <h3>
+                        New Project
+                    </h3>
+                    <p>
+                        Coming soon!
+                    </p>
+                </div>
             </div>
             <div class="project">
-                <a href="https://michaelsamm.github.io/run-buddy/"><img src="./assets/images/work-in-progress.jpg" alt="Work in progress"></a>
+                <a href=""><img src="./assets/images/work-in-progress.jpg" alt="Work in progress"></a>
+                <div class="project-description">
+                    <h3>
+                        New Project
+                    </h3>
+                    <p>
+                        Coming soon!
+                    </p>
+                </div>
             </div>
         </div>
     </main>
@@ -104,9 +124,11 @@
     <!-- Contact Me Start -->
     <section class="dark-background">
         <!-- Section title -->
-        <h2 id="contact">
-            Contact Me
-        </h2>
+        <div>
+            <h2 id="contact">
+                Contact Me
+            </h2>           
+        </div>
         <!-- Contact info -->
         <div>
             <a href="tel:+13174506900">(317) 450-6900</a>
@@ -117,9 +139,12 @@
     <!-- Contact Me End -->
 
     <!-- Footer Start -->
-    <footer>
+    <footer class="dark-background">
         <p>
-            Last updated: 
+            Made by Michael Samm
+        </p>
+        <p>
+            Last updated: 03/13/2022
         </p>
     </footer>
     <!-- Footer end -->
