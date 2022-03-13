@@ -160,5 +160,29 @@ header nav ul li a:hover {
     color: var(--light-text-color);
 }
 
+/* End Projects styling */
 
+/* Start Contact Info styling */
 
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-me a {
+    text-decoration: none;
+    font-style: bold;
+    color: var(--primary-color);
+    background-color: var(--light-text-color);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.contact-me a:hover {
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    border: solid 2px var(--secondary-color);
+    padding: 13px;
+}
