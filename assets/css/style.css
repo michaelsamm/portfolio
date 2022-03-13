@@ -5,6 +5,7 @@ project-description */
     --primary-color: #020808;
     --secondary-color: #876a08;
     --light-text-color: whitesmoke;
+    --transition: all 260ms ease-in-out;
 }
 
 * {
@@ -132,7 +133,7 @@ header nav ul li a:hover {
 }
 
 .project {
-    margin: 5px;
+    margin: 10px;
     flex: 40%;
     position: relative;
 }
@@ -158,6 +159,15 @@ header nav ul li a:hover {
     left: 0;
     background: var(--secondary-color);
     color: var(--light-text-color);
+    transition: var(--transition);
+}
+
+.project:hover .project-description {
+    background: var(--primary-color);
+}
+
+#feature-project {
+    flex: 100%;
 }
 
 /* End Projects styling */
@@ -178,6 +188,7 @@ header nav ul li a:hover {
     background-color: var(--light-text-color);
     padding: 15px;
     border-radius: 50px;
+    transition: var(--transition);
 }
 
 .contact-me a:hover {
