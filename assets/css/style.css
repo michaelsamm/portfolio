@@ -70,3 +70,37 @@ header nav ul li a:hover {
     align-items: flex-start;
 }
 
+/* General styling for column layout on page */
+.dark-background {
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+}
+
+.column-section {
+    display: flex;
+    padding: 20px;
+}
+
+.column-section h2 {
+    align-items: center;
+    width: 20%;
+}
+
+/* Start About Me styling */
+
+.about-me {
+    width: 100%;
+    margin: 0, auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me div {
+    flex: 1 50%;
+    padding: 0 5px;
+}
+.about-me img {
+    width: 200px;
+    border-radius: 10px;
+}
+
