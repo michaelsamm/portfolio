@@ -3,6 +3,8 @@ project
 project-description */
 :root {
     --primary-color: #020808;
+    --secondary-color: #876a08;
+    --light-text-color: whitesmoke;
 }
 
 * {
@@ -23,12 +25,14 @@ header {
 header h1 {
     font-size: 24px;
     margin: 0;
-    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--light-text-color);
+    font-weight: lighter;
 }
 
 header a {
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--light-text-color);
 }
 
 header nav {
@@ -44,8 +48,14 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
+    padding: 5px 10px;
+    margin: 2px;
     font-weight: lighter;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    border-radius: 15px;
 }
 
 .hero {
