@@ -135,6 +135,7 @@ header nav ul li a:hover {
 .project {
     margin: 10px;
     flex: 40%;
+    max-width: 40%;
     position: relative;
 }
 
@@ -167,7 +168,8 @@ header nav ul li a:hover {
 }
 
 #feature-project {
-    flex: 100%;
+    flex: 90%;
+    max-width: 90%;
 }
 
 /* End Projects styling */
